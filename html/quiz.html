@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz Yourself!</title>
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container" id="game">
+
+        <div class="row">
+            <!--high scores-->
+            <div class="col-lg-2"> 
+                <a href="scores.html">View Highscores</a>
+            </div>
+            <!--timer-->
+            <div class="col-lg-2">
+                <p id="timer"></p>
+            </div>
+            <!--return to start-->
+            <div class="col-lg-2">
+                <a href="index.html">Start Over</a>
+            </div>
+        </div>
+        <!--Question-->
+        <div class="row" id="question">
+            <div class="jumbotron" id="question">
+            </div>
+        </div>
+        <!--Answers-->
+        <div class="row">
+            <button id="answerA"></button>
+        </div>
+        <div class="row">
+            <button id="answerB"></button>
+        </div>
+        <div class="row">
+            <button id="answerC"></button>
+        </div>
+        <div class="row">
+            <button id="answerD"></button>
+        </div>
+
+    </div>
+
+    <script src="../scripts/questions.js"> $(document.ready(function() {
+
+
+        
+        
+    }));</script>
+</body>
+
+</html>
