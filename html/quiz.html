@@ -51,7 +51,39 @@
 
     </div>
 
-    <script src="../scripts/questions.js"> $(document.ready(function() {
+    <script type="text/javascript" src="../scripts/questions.js"> $(document.ready(function() {
+
+// loop through questions array
+for (i=0; i < questionsHawaii.length; i++) {
+ // define variables   
+    var question = "";
+    var a = "";
+    var b = "";
+    var c = "";
+    var d = "";
+// loop through question object properties
+    for (question in questionsHawaii) {
+        += 
+  document.getElementById("#question").innerHTML += questionsH + "<br>";
+}
+
+}
+
+
+// Functions
+    // questionsHawaii for loop:
+    function quiz () {
+        for (i=0; i < questionsHawaii.length; i++) {
+
+    }  
+    }
+    
+
+// Event Listeners
+
+// console.log checks
+console.log(questionsHawaii.[3].choices[2]);
+console.log(questionsHawaii.[0].answer);
 
 
         
