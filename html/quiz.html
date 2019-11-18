@@ -61,10 +61,11 @@ for (i=0; i < questionsHawaii.length; i++) {
     var b = "";
     var c = "";
     var d = "";
+
 // loop through question object properties
     for (question in questionsHawaii) {
-        += 
-  document.getElementById("#question").innerHTML += questionsH + "<br>";
+        var question = questionsHawaii[i].title;
+        document.getElementById("#question").nodeValue === question;
 }
 
 }
@@ -80,14 +81,7 @@ for (i=0; i < questionsHawaii.length; i++) {
     
 
 // Event Listeners
-
-// console.log checks
-console.log(questionsHawaii.[3].choices[2]);
-console.log(questionsHawaii.[0].answer);
-
-
-        
-        
+    
     }));</script>
 </body>
 
