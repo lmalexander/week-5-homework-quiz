@@ -30,28 +30,23 @@
                 <a href="index.html">Start Over</a>
             </div>
         </div>
-        <!--Question-->
-        <div class="row" id="question">
-            <div class="jumbotron" id="question">
+        <!--Quiz-->
+        <div class="quiz">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h4 id="question"></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8" id="answersList"></div>
             </div>
         </div>
-        <!--Answers-->
-        <div class="row">
-            <button id="answerA"></button>
-        </div>
-        <div class="row">
-            <button id="answerB"></button>
-        </div>
-        <div class="row">
-            <button id="answerC"></button>
-        </div>
-        <div class="row">
-            <button id="answerD"></button>
-        </div>
-
     </div>
 
-    <script type="text/javascript" src="../scripts/questions.js"> $(document.ready(function() {
+    <script type="text/javascript" src="../scripts/questions.js"> 
+    
+  /*  
+    $(document.ready(function() {
 
 // loop through questions array
 for (i=0; i < questionsHawaii.length; i++) {
